@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Series:\n1 + 1/2 + 1/3 + 1/4 + .... + 1/n"
+        android:padding="20dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter Value on N:"
+        android:padding="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/soln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Submit for Solution"
+        android:padding="20dp"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        />
+
+
+</LinearLayout>
